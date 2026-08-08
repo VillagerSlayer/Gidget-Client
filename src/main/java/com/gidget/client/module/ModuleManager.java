@@ -68,6 +68,7 @@ public final class ModuleManager {
         register(new AntiAfkModule());
         register(new SpamModule());
         register(new AutoReconnectModule());
+        register(new AutoClickerModule());
     }
 
     private void register(Module module) {
