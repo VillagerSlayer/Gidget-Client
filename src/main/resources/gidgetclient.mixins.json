@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gidget.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "BlockMixin",
+    "BlockStateBaseMixin",
+    "CameraMixin",
+    "ClientLevelMixin",
+    "EntityMixin",
+    "FluidRendererMixin",
+    "KeyboardHandlerMixin",
+    "LightmapRenderStateExtractorMixin",
+    "LivingEntityMixin",
+    "LocalPlayerMixin",
+    "MouseHandlerMixin",
+    "MultiPlayerGameModeMixin",
+    "NoFallMixin",
+    "StepMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

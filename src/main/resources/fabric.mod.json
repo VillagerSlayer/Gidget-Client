@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "gidgetclient",
+  "version": "${version}",
+  "name": "Gidget Client",
+  "description": "An open-source, client-side Fabric utility and developer inspection framework.",
+  "authors": ["Gidget Client contributors"],
+  "contact": {
+    "sources": "https://github.com/VillagerSlayer/Gidget-Client"
+  },
+  "license": "GPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.gidget.client.GidgetClient"
+    ]
+  },
+  "mixins": [
+    "gidgetclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "fabric-api-base": "*",
+    "fabric-resource-loader-v1": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "minecraft": "~26.1",
+    "java": ">=25"
+  }
+}
